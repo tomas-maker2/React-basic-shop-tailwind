@@ -1,13 +1,26 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  scroll-behavior: smooth;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.custom-img{
+  background-image: url("https://wallpapers.com/images/featured/dslr-camera-background-tpnqv4eprflkulj8.jpg");
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.custom-img-shop{
+  background-image: url("https://i.blogs.es/939c44/datos-mercado-cipa-mayo-2021/1366_2000.jpg");
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.img{
+  width: 1440px;
+  height: 350px;
+  object-fit: cover;
 }
